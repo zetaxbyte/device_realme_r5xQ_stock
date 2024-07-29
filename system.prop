@@ -1,0 +1,122 @@
+# Audio
+audio.offload.buffer.size.kb=32
+audio.offload.gapless.enabled=true
+persist.audio.fluence.speaker=true
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+ro.qc.sdk.audio.fluencetype=none
+ro.qc.sdk.audio.ssr=false
+tunnel.audio.encode = true
+use.voice.path.for.pcm.voip=true
+
+# Bluetooth
+persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
+persist.vendor.btstack.enable.splita2dp=true
+ro.bluetooth.emb_wp_mode=false
+ro.bluetooth.library_name=libbluetooth_qti.so
+ro.bluetooth.wipower=false
+vendor.bluetooth.soc=cherokee
+
+# Camera
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.oppo.camera,com.oppo.engineermode.camera
+vendor.camera.aux.packagelist=android,com.oppo.engineermode.camera,com.oppo.camera,com.oppo.engineermode
+
+# CNE
+persist.vendor.cne.feature=1
+
+# Display
+debug.sf.enable_hwc_vds=1
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.gradient_cache_size=1
+ro.hwui.layer_cache_size=48
+ro.hwui.path_cache_size=32
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.text_large_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_small_cache_width=1024
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.texture_cache_size=72
+ro.vendor.display.cabl=0
+
+# DRM
+ro.netflix.bsp_rev=Q6125-17995-1
+
+# Media
+media.aac_51_output_enabled=true
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+media.stagefright.enable-aac=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+media.stagefright.thumbnail.prefer_hw_codecs=true
+
+# NFC
+ro.nfc.port=I2C
+
+# Radio
+persist.radio.atfwd.start=false
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_plmn=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+persist.vendor.radio.facnotsup_as_nonw=0
+ril.subscription.types=NV,RUIM
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+ro.telephony.default_network=22,22
+telephony.lteOnCdmaDevice=1
+
+# Wi-Fi
+ro.wifi.channels=
+
+# Wi-Fi Display
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+
+# Miscellaneous
+DEVICE_PROVISIONED=1
+av.offload.enable=true
+bt.max.hfpclient.connections=1
+config.disable_rtt=true
+dalvik.vm.heapsize=36m
+dev.pm.dyn_samplingrate=1
+mmp.enable.3g2=true
+net.bt.name=Android
+persist.camera.privapp.list=org.codeaurora.snapcam
+persist.data.df.dev_name=rmnet_usb0
+persist.debug.coresight.config=stm-events
+persist.fuse_sdcard=true
+persist.mm.enable.prefetch=true
+persist.timed.enable=true
+persist.vendor.data.mode=concurrent
+qcom.hw.aac.encoder=true
+qemu.hw.mainkeys=0
+ro.build.device_family=OPSM6125
+ro.build.keystore.path=/sdcard/.lii/
+ro.build.soft.majorversion=
+ro.dolby.brand=OPPO
+ro.dolby.device=OP46C3
+ro.dolby.manufacturer=OPPO
+ro.dolby.model=PAFM00
+ro.kernel.qemu.gles=0
+ro.product.brand.sub=realme
+ro.qualcomm.cabl=0
+ro.vendor.product.device.oem=r5xQ
+ro.vendor.product.oem=r5xQ
+ro.vendor.qti.config.zram=true
+ro.vendor.qti.sys.fw.bg_apps_limit=60
+ro.vendor.qti.va_aosp.support=1
+ro.vendor.use_data_netmgrd=true
+sys.qca1530=detect
+vendor.iop.enable_uxe=0
+vendor.mm.enable.qcom_parser=47054591
+vendor.perf.gestureflingboost.enable=true
+vendor.perf.workloadclassifier.enable=true
+
